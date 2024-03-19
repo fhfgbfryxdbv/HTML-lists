@@ -1,0 +1,21 @@
+body{
+    background-color: lightgrey;
+}
+p{
+    font-size: large;
+    margin: 90px;
+    background-color: aliceblue;
+    text-align: center;
+}
+li{
+    font-size: medium;
+    color: chocolate;
+}
+@counter-style bynary{
+    system: alphabetic;
+    symbols: "0" "1";
+    suffix: " ";
+}
+.o1{
+    list-style: bynary;
+}
